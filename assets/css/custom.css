@@ -35,6 +35,8 @@
 .ad-box-300x250 { width: 300px; min-height: 250px; max-width: 100%; }
 .ad-box-160x300 { width: 160px; min-height: 300px; }
 .ad-box-160x600 { width: 160px; min-height: 600px; }
+.ad-box-native { display: block; width: 100%; max-width: 728px; min-height: 140px; margin-inline: auto; }
+.movies-list > li.ad-grid-row .ad-slot { margin: 0 auto; }
 .ad-row { display: flex; gap: 30px; justify-content: center; align-items: flex-start; flex-wrap: wrap; margin: 30px auto; }
 .ad-row .ad-slot { margin: 0; }
 .movies-list > li[data-ad-slot] { display: flex; align-items: center; justify-content: center; }
