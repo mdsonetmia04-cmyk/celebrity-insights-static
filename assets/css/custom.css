@@ -24,7 +24,7 @@
 .post-nav span { display: block; color: var(--citrine); font-size: var(--fs-9); font-weight: var(--fw-500); margin-bottom: 5px; }
 .post-nav a.next { text-align: right; margin-left: auto; }
 @media (max-width: 768px) { .post-nav a { max-width: 100%; } .logo-text { font-size: 20px; } }
-.ad-slot { text-align: center; margin: 30px auto; }
+.ad-slot { text-align: center; margin: 16px auto; }
 .ad-slot iframe { max-width: 100%; }
 .ad-slot-label { display: block; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--gray-x); margin-bottom: 8px; }
 .ad-box { display: inline-block; border: 1px dashed rgba(217,165,33,.55); background: rgba(255,255,255,.02); line-height: 0; }
@@ -36,8 +36,8 @@
 .ad-box-160x300 { width: 160px; min-height: 300px; }
 .ad-box-160x600 { width: 160px; min-height: 600px; }
 .ad-box-native { display: block; width: 100%; max-width: 728px; min-height: 140px; margin-inline: auto; }
-.movies-list > li.ad-grid-row .ad-slot { margin: 0 auto; }
-.ad-row { display: flex; gap: 30px; justify-content: center; align-items: flex-start; flex-wrap: wrap; margin: 30px auto; }
+/* Homepage ads live OUTSIDE the card grid (see build_index): each ad row is
+   a plain block between card-grid chunks, so no ad can ever share a row with
+   post cards and no grid gap can pad the ad rows. */
+.ad-row { display: flex; gap: 30px; justify-content: center; align-items: flex-start; flex-wrap: wrap; margin: 16px auto; }
 .ad-row .ad-slot { margin: 0; }
-.movies-list > li[data-ad-slot] { display: flex; align-items: center; justify-content: center; }
-.movies-list > li.ad-grid-row { grid-column: 1 / -1; }
