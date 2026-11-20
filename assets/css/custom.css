@@ -24,3 +24,5 @@
 .post-nav span { display: block; color: var(--citrine); font-size: var(--fs-9); font-weight: var(--fw-500); margin-bottom: 5px; }
 .post-nav a.next { text-align: right; margin-left: auto; }
 @media (max-width: 768px) { .post-nav a { max-width: 100%; } .logo-text { font-size: 20px; } }
+.ad-slot { text-align: center; margin: 30px auto; }
+.ad-slot iframe { max-width: 100%; }
