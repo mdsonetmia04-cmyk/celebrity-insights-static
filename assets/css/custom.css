@@ -26,3 +26,16 @@
 @media (max-width: 768px) { .post-nav a { max-width: 100%; } .logo-text { font-size: 20px; } }
 .ad-slot { text-align: center; margin: 30px auto; }
 .ad-slot iframe { max-width: 100%; }
+.ad-slot-label { display: block; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: var(--gray-x); margin-bottom: 8px; }
+.ad-box { display: inline-block; border: 1px dashed rgba(217,165,33,.55); background: rgba(255,255,255,.02); line-height: 0; }
+.ad-box iframe { display: block; }
+.ad-box-468x60 { width: 468px; min-height: 60px; max-width: 100%; }
+.ad-box-728x90 { width: 728px; min-height: 90px; max-width: 100%; }
+.ad-box-320x50 { width: 320px; min-height: 50px; max-width: 100%; }
+.ad-box-300x250 { width: 300px; min-height: 250px; max-width: 100%; }
+.ad-box-160x300 { width: 160px; min-height: 300px; }
+.ad-box-160x600 { width: 160px; min-height: 600px; }
+.ad-row { display: flex; gap: 30px; justify-content: center; align-items: flex-start; flex-wrap: wrap; margin: 30px auto; }
+.ad-row .ad-slot { margin: 0; }
+.movies-list > li[data-ad-slot] { display: flex; align-items: center; justify-content: center; }
+.movies-list > li.ad-grid-row { grid-column: 1 / -1; }
